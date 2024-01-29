@@ -1,0 +1,3 @@
+(Domain Katmanı - CORE)
+Temel varlık (Entity) sınıfları, iş kuralları ve Enum'lar bu katmanda yer alır.
+Repository arayüzleri, veritabanı işlemleri için genel operasyonları tanımlar.

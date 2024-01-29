@@ -1,0 +1,11 @@
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/bin/Debug/net8.0/Layered.Domain.deps.json
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/bin/Debug/net8.0/Layered.Domain.dll
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/bin/Debug/net8.0/Layered.Domain.pdb
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/obj/Debug/net8.0/Layered.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/obj/Debug/net8.0/Layered.Domain.AssemblyInfoInputs.cache
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/obj/Debug/net8.0/Layered.Domain.AssemblyInfo.cs
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/obj/Debug/net8.0/Layered.Domain.csproj.CoreCompileInputs.cache
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/obj/Debug/net8.0/Layered.Domain.dll
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/obj/Debug/net8.0/refint/Layered.Domain.dll
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/obj/Debug/net8.0/Layered.Domain.pdb
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/obj/Debug/net8.0/ref/Layered.Domain.dll

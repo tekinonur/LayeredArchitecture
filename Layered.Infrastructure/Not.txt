@@ -1,0 +1,2 @@
+(Infrastructure Katmanı - DATA)
+Altyapı işlemleri, harici servis çağrıları gibi detaylı işlemler bu katmanda gerçekleştirilir.

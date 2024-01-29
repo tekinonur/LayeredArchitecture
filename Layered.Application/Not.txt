@@ -1,0 +1,3 @@
+(Application / Business Katmanı)
+Veri transferi için kullanılan DTO (Data Transfer Object) sınıfları bu katmanda tanımlanır.
+API katmanından gelen istekleri işler ve Domain Katmanı'ndaki servisleri kullanarak iş mantığını yürütür.
