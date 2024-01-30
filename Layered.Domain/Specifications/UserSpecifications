@@ -1,0 +1,18 @@
+using Layered.Domain.Entities;
+using Layered.Domain.Enums;
+using Layered.Domain.Base.Specifications;
+
+namespace Layered.Domain.Specifications;
+
+  public static class UserSpecifications
+    {
+        public static BaseSpecification<User> GetUserByEmailAndPasswordSpec(string emailId, string password)
+        {
+            return new BaseSpecification<User>(x => x.EmailId == emailId && x.Password == password && x.IsDeleted == false);
+        }
+
+        public static BaseSpecification<User> GetAllActiveUsersSpec()
+        {
+            return new BaseSpecification<User>(x => x.Status == UserStatus.Active && x.IsDeleted == false);
+        }
+    }

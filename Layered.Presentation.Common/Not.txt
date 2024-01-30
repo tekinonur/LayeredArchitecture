@@ -1,0 +1,4 @@
+Common
+Aynı katman içerisinde paylaşılıyorsa
+Shared
+Diğer katmanlarla paylaşılırsa

@@ -1,0 +1,4 @@
+https://github.com/Kooboo/Kooboo/tree/f49c9249239c9b76cad59997800516a07107cfe8/Kooboo.Engines/Core/Legacy/Caching
+Caching eklenebilir
+
+ICompiled vs ICache tekğilleştirilebilir
