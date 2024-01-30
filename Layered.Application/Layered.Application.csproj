@@ -1,4 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\Layered.Domain\Layered.Domain.csproj" />
+    <ProjectReference Include="..\Layered.Infrastructure\Layered.Infrastructure.csproj" />
+    <ProjectReference Include="..\Layered.Application.Services\Layered.Application.Services.csproj" />
+  </ItemGroup>
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>

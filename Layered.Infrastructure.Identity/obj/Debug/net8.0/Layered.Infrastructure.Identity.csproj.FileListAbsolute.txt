@@ -1,0 +1,16 @@
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Identity/bin/Debug/net8.0/Layered.Infrastructure.Identity.deps.json
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Identity/bin/Debug/net8.0/Layered.Infrastructure.Identity.dll
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Identity/bin/Debug/net8.0/Layered.Infrastructure.Identity.pdb
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Identity/bin/Debug/net8.0/Layered.Domain.dll
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Identity/bin/Debug/net8.0/Layered.Domain.pdb
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Identity/obj/Debug/net8.0/Layered.Infrastructure.Identity.csproj.AssemblyReference.cache
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Identity/obj/Debug/net8.0/Layered.Infrastructure.Identity.GeneratedMSBuildEditorConfig.editorconfig
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Identity/obj/Debug/net8.0/Layered.Infrastructure.Identity.AssemblyInfoInputs.cache
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Identity/obj/Debug/net8.0/Layered.Infrastructure.Identity.AssemblyInfo.cs
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Identity/obj/Debug/net8.0/Layered.Infrastructure.Identity.csproj.CoreCompileInputs.cache
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Identity/obj/Debug/net8.0/Layered.Infrastructure.Identity.sourcelink.json
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Identity/obj/Debug/net8.0/Layered.Infrastructure.Identity.csproj.CopyComplete
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Identity/obj/Debug/net8.0/Layered.Infrastructure.Identity.dll
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Identity/obj/Debug/net8.0/refint/Layered.Infrastructure.Identity.dll
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Identity/obj/Debug/net8.0/Layered.Infrastructure.Identity.pdb
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Identity/obj/Debug/net8.0/ref/Layered.Infrastructure.Identity.dll

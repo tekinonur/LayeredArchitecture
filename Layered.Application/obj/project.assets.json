@@ -1,11 +1,103 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "Layered.Application.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Layered.Application.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Layered.Application.Services.dll": {}
+        }
+      },
+      "Layered.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Layered.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Layered.Domain.dll": {}
+        }
+      },
+      "Layered.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Layered.Domain": "1.0.0",
+          "Layered.Infrastructure.Identity": "1.0.0",
+          "Layered.Infrastructure.Persistence": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Layered.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Layered.Infrastructure.dll": {}
+        }
+      },
+      "Layered.Infrastructure.Identity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Layered.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Layered.Infrastructure.Identity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Layered.Infrastructure.Identity.dll": {}
+        }
+      },
+      "Layered.Infrastructure.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Layered.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Layered.Infrastructure.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Layered.Infrastructure.Persistence.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Layered.Application.Services/1.0.0": {
+      "type": "project",
+      "path": "../Layered.Application.Services/Layered.Application.Services.csproj",
+      "msbuildProject": "../Layered.Application.Services/Layered.Application.Services.csproj"
+    },
+    "Layered.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Layered.Domain/Layered.Domain.csproj",
+      "msbuildProject": "../Layered.Domain/Layered.Domain.csproj"
+    },
+    "Layered.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Layered.Infrastructure/Layered.Infrastructure.csproj",
+      "msbuildProject": "../Layered.Infrastructure/Layered.Infrastructure.csproj"
+    },
+    "Layered.Infrastructure.Identity/1.0.0": {
+      "type": "project",
+      "path": "../Layered.Infrastructure.Identity/Layered.Infrastructure.Identity.csproj",
+      "msbuildProject": "../Layered.Infrastructure.Identity/Layered.Infrastructure.Identity.csproj"
+    },
+    "Layered.Infrastructure.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../Layered.Infrastructure.Persistence/Layered.Infrastructure.Persistence.csproj",
+      "msbuildProject": "../Layered.Infrastructure.Persistence/Layered.Infrastructure.Persistence.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "Layered.Application.Services >= 1.0.0",
+      "Layered.Domain >= 1.0.0",
+      "Layered.Infrastructure >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/onurtekin/.nuget/packages/": {}
@@ -31,7 +123,17 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Application.Services/Layered.Application.Services.csproj": {
+              "projectPath": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Application.Services/Layered.Application.Services.csproj"
+            },
+            "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/Layered.Domain.csproj": {
+              "projectPath": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/Layered.Domain.csproj"
+            },
+            "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure/Layered.Infrastructure.csproj": {
+              "projectPath": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure/Layered.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

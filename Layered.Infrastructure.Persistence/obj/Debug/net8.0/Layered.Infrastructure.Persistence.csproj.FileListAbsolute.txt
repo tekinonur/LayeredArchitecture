@@ -1,0 +1,6 @@
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Persistence/obj/Debug/net8.0/Layered.Infrastructure.Persistence.csproj.AssemblyReference.cache
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Persistence/obj/Debug/net8.0/Layered.Infrastructure.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Persistence/obj/Debug/net8.0/Layered.Infrastructure.Persistence.AssemblyInfoInputs.cache
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Persistence/obj/Debug/net8.0/Layered.Infrastructure.Persistence.AssemblyInfo.cs
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Persistence/obj/Debug/net8.0/Layered.Infrastructure.Persistence.csproj.CoreCompileInputs.cache
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Persistence/obj/Debug/net8.0/Layered.Infrastructure.Persistence.sourcelink.json

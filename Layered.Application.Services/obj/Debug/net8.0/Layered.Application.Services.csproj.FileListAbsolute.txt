@@ -1,0 +1,12 @@
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Application.Services/bin/Debug/net8.0/Layered.Application.Services.deps.json
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Application.Services/bin/Debug/net8.0/Layered.Application.Services.dll
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Application.Services/bin/Debug/net8.0/Layered.Application.Services.pdb
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Application.Services/obj/Debug/net8.0/Layered.Application.Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Application.Services/obj/Debug/net8.0/Layered.Application.Services.AssemblyInfoInputs.cache
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Application.Services/obj/Debug/net8.0/Layered.Application.Services.AssemblyInfo.cs
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Application.Services/obj/Debug/net8.0/Layered.Application.Services.csproj.CoreCompileInputs.cache
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Application.Services/obj/Debug/net8.0/Layered.Application.Services.sourcelink.json
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Application.Services/obj/Debug/net8.0/Layered.Application.Services.dll
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Application.Services/obj/Debug/net8.0/refint/Layered.Application.Services.dll
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Application.Services/obj/Debug/net8.0/Layered.Application.Services.pdb
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Application.Services/obj/Debug/net8.0/ref/Layered.Application.Services.dll

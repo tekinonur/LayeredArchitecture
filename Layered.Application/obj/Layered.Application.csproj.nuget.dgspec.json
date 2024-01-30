@@ -4,6 +4,59 @@
     "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Application/Layered.Application.csproj": {}
   },
   "projects": {
+    "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Application.Services/Layered.Application.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Application.Services/Layered.Application.Services.csproj",
+        "projectName": "Layered.Application.Services",
+        "projectPath": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Application.Services/Layered.Application.Services.csproj",
+        "packagesPath": "/Users/onurtekin/.nuget/packages/",
+        "outputPath": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Application.Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/onurtekin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Application/Layered.Application.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -25,7 +78,247 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Application.Services/Layered.Application.Services.csproj": {
+                "projectPath": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Application.Services/Layered.Application.Services.csproj"
+              },
+              "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/Layered.Domain.csproj": {
+                "projectPath": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/Layered.Domain.csproj"
+              },
+              "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure/Layered.Infrastructure.csproj": {
+                "projectPath": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure/Layered.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/Layered.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/Layered.Domain.csproj",
+        "projectName": "Layered.Domain",
+        "projectPath": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/Layered.Domain.csproj",
+        "packagesPath": "/Users/onurtekin/.nuget/packages/",
+        "outputPath": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/onurtekin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Identity/Layered.Infrastructure.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Identity/Layered.Infrastructure.Identity.csproj",
+        "projectName": "Layered.Infrastructure.Identity",
+        "projectPath": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Identity/Layered.Infrastructure.Identity.csproj",
+        "packagesPath": "/Users/onurtekin/.nuget/packages/",
+        "outputPath": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Identity/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/onurtekin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/Layered.Domain.csproj": {
+                "projectPath": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/Layered.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Persistence/Layered.Infrastructure.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Persistence/Layered.Infrastructure.Persistence.csproj",
+        "projectName": "Layered.Infrastructure.Persistence",
+        "projectPath": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Persistence/Layered.Infrastructure.Persistence.csproj",
+        "packagesPath": "/Users/onurtekin/.nuget/packages/",
+        "outputPath": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/onurtekin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/Layered.Domain.csproj": {
+                "projectPath": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/Layered.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure/Layered.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure/Layered.Infrastructure.csproj",
+        "projectName": "Layered.Infrastructure",
+        "projectPath": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure/Layered.Infrastructure.csproj",
+        "packagesPath": "/Users/onurtekin/.nuget/packages/",
+        "outputPath": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/onurtekin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/Layered.Domain.csproj": {
+                "projectPath": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/Layered.Domain.csproj"
+              },
+              "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Identity/Layered.Infrastructure.Identity.csproj": {
+                "projectPath": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Identity/Layered.Infrastructure.Identity.csproj"
+              },
+              "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Persistence/Layered.Infrastructure.Persistence.csproj": {
+                "projectPath": "/Users/onurtekin/Repos/LayeredArchitecture/Layered.Infrastructure.Persistence/Layered.Infrastructure.Persistence.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

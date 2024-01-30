@@ -9,3 +9,4 @@
 /Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/obj/Debug/net8.0/refint/Layered.Domain.dll
 /Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/obj/Debug/net8.0/Layered.Domain.pdb
 /Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/obj/Debug/net8.0/ref/Layered.Domain.dll
+/Users/onurtekin/Repos/LayeredArchitecture/Layered.Domain/obj/Debug/net8.0/Layered.Domain.sourcelink.json
